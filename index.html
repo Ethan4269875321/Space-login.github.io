@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Planet sliding sign-up page</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="flip">
+          <div class="user signinBx">
+            <div class="imgBx">
+              <img src="./images/earth.jpg" alt="" />
+            </div>
+            <div class="formBx">
+              <form>
+                <h2>Sign in space travel</h2>
+                <input type="text" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <input type="submit" placeholder="Login" />
+                <p class="signup">
+                  Dont have a account?
+                  <a href="#" onclick="toggleForm()">Sign up.</a>
+                </p>
+              </form>
+            </div>
+          </div>
+          <div class="user signupBx">
+            <div class="formBx">
+              <form>
+                <h2>Sign up space travel</h2>
+                <input type="text" placeholder="Username" />
+                <input type="text" placeholder="Email Adresss" />
+                <input type="password" placeholder="Create Password" />
+                <input type="password" placeholder="Confirm Password" />
+                <input type="submit" value="sign-up" />
+                <p class="signup">
+                  Already have a account?
+                  <a href="#" onclick="toggleForm()">Sign in.</a>
+                </p>
+              </form>
+            </div>
+            <div class="imgBx">
+              <img src="./images/mars.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript" src="./js/script.js"></script>
+  </body>
+</html>
